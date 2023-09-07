@@ -10,8 +10,9 @@ import UIKit
 class ViewController: UIViewController {
 // part 8: Declare and assign three string variables
 
-var partOne = "welcome, "
-var PartTwo = " You're entering my app. "
+    var welcome: String = "welcome, "
+    var myApp: String = " You're entering my app. "
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,3 +25,4 @@ var PartTwo = " You're entering my app. "
     
 }
 
+//segue thrusday

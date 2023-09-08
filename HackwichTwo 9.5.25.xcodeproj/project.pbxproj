@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3199A2892AAAA56A00E48A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3199A2882AAAA56A00E48A9E /* Main.storyboard */; };
 		31D96B062AA7EC4D008931E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D96B052AA7EC4D008931E6 /* AppDelegate.swift */; };
 		31D96B082AA7EC4D008931E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D96B072AA7EC4D008931E6 /* SceneDelegate.swift */; };
 		31D96B0A2AA7EC4D008931E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D96B092AA7EC4D008931E6 /* ViewController.swift */; };
-		31D96B0D2AA7EC4D008931E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D96B0B2AA7EC4D008931E6 /* Main.storyboard */; };
 		31D96B0F2AA7EC4E008931E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D96B0E2AA7EC4E008931E6 /* Assets.xcassets */; };
 		31D96B122AA7EC4E008931E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D96B102AA7EC4E008931E6 /* LaunchScreen.storyboard */; };
 		31D96B1C2AAA9986008931E6 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D96B1B2AAA9986008931E6 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3199A2882AAAA56A00E48A9E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		3199A28A2AAAA56E00E48A9E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		31D96B022AA7EC4D008931E6 /* HackwichTwo 9.5.25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackwichTwo 9.5.25.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D96B052AA7EC4D008931E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31D96B072AA7EC4D008931E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		31D96B092AA7EC4D008931E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		31D96B0C2AA7EC4D008931E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31D96B0E2AA7EC4E008931E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D96B112AA7EC4E008931E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D96B132AA7EC4E008931E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				31D96B042AA7EC4D008931E6 /* HackwichTwo 9.5.25 */,
+				3199A2882AAAA56A00E48A9E /* Main.storyboard */,
 				31D96B032AA7EC4D008931E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +63,7 @@
 				31D96B052AA7EC4D008931E6 /* AppDelegate.swift */,
 				31D96B072AA7EC4D008931E6 /* SceneDelegate.swift */,
 				31D96B092AA7EC4D008931E6 /* ViewController.swift */,
-				31D96B0B2AA7EC4D008931E6 /* Main.storyboard */,
+				3199A28A2AAAA56E00E48A9E /* Main.storyboard */,
 				31D96B1B2AAA9986008931E6 /* secondViewController.swift */,
 				31D96B0E2AA7EC4E008931E6 /* Assets.xcassets */,
 				31D96B102AA7EC4E008931E6 /* LaunchScreen.storyboard */,
@@ -128,9 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3199A2892AAAA56A00E48A9E /* Main.storyboard in Resources */,
 				31D96B122AA7EC4E008931E6 /* LaunchScreen.storyboard in Resources */,
 				31D96B0F2AA7EC4E008931E6 /* Assets.xcassets in Resources */,
-				31D96B0D2AA7EC4D008931E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +153,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		31D96B0B2AA7EC4D008931E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31D96B0C2AA7EC4D008931E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31D96B102AA7EC4E008931E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

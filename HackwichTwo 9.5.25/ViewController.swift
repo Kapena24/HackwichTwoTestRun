@@ -10,18 +10,16 @@ import UIKit
 class ViewController: UIViewController {
 // part 8: Declare and assign three string variables
 
-    var welcome: String = "welcome, "
-    var myApp: String = " You're entering my app. "
-
+    @IBOutlet weak var helloWorld: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    @IBAction func pressMeButtonPressed(_ sender:Any)
-    {
-        print ("Hello, World")
-    }
-    
+   
+    @IBAction func pressMeButtonPressed(_ sender: Any) {
+        helloWorld.text = "Nothing to see"
+}
     
 }
 
